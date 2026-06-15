@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Loja de roupas online com as últimas tendências em moda. Encontre camisetas, calças, jaquetas e muito mais. Compre agora e arrase no estilo!">
+    <meta name="keywords" content="loja de roupas online, moda, estilo, camisetas, calças, jaquetas, vestidos, sapatos">
+    <meta name="author" content="Alexia Paré">
+    <title>Moda & Estilo | Loja de Roupas Online</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="nav-container">
+            <img src="asset/images/logo.png" alt="Logo" class="nav-logo">
+            <nav>
+                <ul class="menu-nav">
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#sobre">Sobre Nós</a></li>
+                    <li><a href="#produtos">Produtos</a></li>
+                    <li><a href="carrinho.html" class="btn-carrinho-link nav-carrinho-btn">🛒 Carrinho</a></li>
+                </ul>
+            </nav>
+        </div>
+        <h1>Moda & Estilo</h1>
+    </header>
+
+    <main>
+        <section class="secao-sobre-destaque" id="sobre">
+            <h2>Sobre Nós</h2>
+            <p>Nossa loja nasceu da paixão por moda e conforto. Trabalhamos com peças selecionadas para garantir o melhor estilo para você, sempre focados em qualidade e atendimento personalizado.</p>
+        </section>
+
+        <section class="secao-produtos-destaque" id="produtos">
+            <h2>Nossos Produtos</h2>
+            
+            <article class="produto">
+                <img src="asset/images/camiseta.jpg" alt="Camiseta Básica">
+                <h3>Camiseta Básica</h3>
+                <p>Preço: R$ 59,90</p>
+                <button class="btn-compre" onclick="abrirModal(this)">Compre Já</button>
+            </article>
+
+            <article class="produto">
+                <img src="asset/images/calça_jeans.jpg" alt="Calça Jeans">
+                <h3>Calça Jeans</h3>
+                <p>Preço: R$ 159,90</p>
+                <button class="btn-compre" onclick="abrirModal(this)">Compre Já</button>
+            </article>
+
+            <article class="produto">
+                <img src="asset/images/jaqueta_couro.jpg" alt="Jaqueta de Couro">
+                <h3>Jaqueta de Couro</h3>
+                <p>Preço: R$ 299,90</p>
+                <button class="btn-compre" onclick="abrirModal(this)">Compre Já</button>
+            </article>
+
+            <article class="produto">
+                <img src="asset/images/vestido_floral.jpg" alt="Vestido Floral">
+                <h3>Vestido Floral</h3>
+                <p>Preço: R$ 129,90</p>
+                <button class="btn-compre" onclick="abrirModal(this)">Compre Já</button>
+            </article>
+
+            <article class="produto">
+                <img src="asset/images/moletom_oversized.jpg" alt="Moletom Oversized">
+                <h3>Moletom Oversized</h3>
+                <p>Preço: R$ 189,90</p>
+                <button class="btn-compre" onclick="abrirModal(this)">Compre Já</button>
+            </article>
+
+            <article class="produto">
+                <img src="asset/images/sapato_maryjane.jpg" alt="Sapato Mary Jane">
+                <h3>Sapato Mary Jane</h3>
+                <p>Preço: R$ 199,90</p>
+                <button class="btn-compre" onclick="abrirModal(this)">Compre Já</button>
+            </article>
+        </section>
+    </main>
+
+    <div id="modal-compra" class="modal">
+        <div class="modal-conteudo">
+            <span class="fechar-modal" onclick="fecharModal()">&times;</span>
+            <img id="modal-img" src="" alt="Produto">
+            <h3 id="modal-titulo"></h3>
+            <p id="modal-preco"></p>
+            
+            <label>Variedade: 
+                <select id="modal-variedade">
+                    <option value="P">P</option>
+                    <option value="M">M</option>
+                    <option value="G">G</option>
+                </select>
+            </label>
+            <br>
+            <label>Quantidade: 
+                <input type="number" id="modal-qtd" value="1" min="1" style="width: 50px;">
+            </label>
+            <br>
+            <button class="btn-confirmar" onclick="adicionarAoCarrinho()">Adicionar ao Carrinho</button>
+        </div>
+    </div>
+
+    <footer id="contato">
+        <h2>Entre em Contato</h2>
+        <p>Email: contato@modaestilo.com.br | WhatsApp: (51) 99999-9999</p>
+        <p>Desenvolvido por: <strong>Alexia Paré</strong> &copy; 2026</p>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrinho | Moda & Estilo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Carrinho de Compras</h1>
+        <nav>
+            <ul class="menu-nav">
+                <li><a href="index.html">Voltar para a Loja</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="bloco-fundo-branco">
+        <section id="carrinho">
+            <h2>Itens Escolhidos</h2>
+            
+            <div id="lista-produtos-carrinho">
+                <p>Seu carrinho está vazio no momento.</p>
+            </div>
+            
+            <div id="area-pagamento" style="margin-top: 30px; border-top: 2px solid #0E6973; padding-top: 20px;">
+                <div id="total-carrinho" style="font-weight: bold; font-size: 1.5rem; margin-bottom: 20px; color: #0E6973;">
+                    Total: R$ 0,00
+                </div>
+
+                <div id="form-checkout">
+                    <input type="text" id="endereco" placeholder="Digite seu endereço completo" style="width: 100%; padding: 12px; margin-bottom: 15px; border-radius: 8px; border: 1px solid #0E6973;">
+                    
+                    <select id="pagamento" style="width: 100%; padding: 12px; margin-bottom: 15px; border-radius: 8px; border: 1px solid #0E6973;">
+                        <option value="pix">PIX</option>
+                        <option value="cartao">Cartão de Crédito</option>
+                        <option value="dinheiro">Dinheiro</option>
+                    </select>
+                    
+                    <button class="btn-confirmar" onclick="finalizarCompra()" style="width: 100%; padding: 15px;">Finalizar Pedido</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="main.js"></script>
+</body>
+</html>
