@@ -3,17 +3,18 @@ Criação de uma pequena loja de roupas.
 
 # 🚀 Status do Projeto
 ✅ Funcionalidades Finalizadas
-Design & Layout: Estrutura de navegação fina, catálogo responsivo e estilização completa com CSS.
 
-Vitrine de Produtos: Exibição dos itens com hover effects e grade organizada.
+✔️Design & Layout: Estrutura de navegação fina, catálogo responsivo e estilização completa com CSS.
 
-Sistema de Modal: Janela de detalhes do produto funcional (foto, título, preço e seleção de tamanho/quantidade).
+✔️Vitrine de Produtos: Exibição dos itens com hover effects e grade organizada.
 
-Gerenciamento de Carrinho: Adição de itens, cálculo automático do total e persistência de dados via localStorage.
+✔️Sistema de Modal: Janela de detalhes do produto funcional (foto, título, preço e seleção de tamanho/quantidade).
 
-Remoção de Itens: Botão de exclusão funcional dentro da página do carrinho.
+✔️Gerenciamento de Carrinho: Adição de itens, cálculo automático do total e persistência de dados via localStorage.
 
-Checkout: Formulário para endereço e seleção de forma de pagamento.
+✔️Remoção de Itens: Botão de exclusão funcional dentro da página do carrinho.
+
+✔️Checkout: Formulário para endereço e seleção de forma de pagamento.
 
 🚧 Funcionalidades Pendentes (Para o futuro)
 
