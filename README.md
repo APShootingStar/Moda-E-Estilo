@@ -31,5 +31,5 @@ Clone o repositório.
 
 Abra o index.html em qualquer navegador.
 
-👩‍💻 Desenvolvedora
+👩‍💻 Desenvolvedor:
 Desenvolvido por Alexia Paré © 2026
