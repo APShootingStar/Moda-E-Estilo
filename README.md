@@ -18,11 +18,11 @@ Criação de uma pequena loja de roupas.
 
 🚧 Funcionalidades Pendentes (Para o futuro)
 
-[ ] Integração de Pagamento Real: O checkout atual é apenas uma simulação (alerta na tela).
+[ ] Integração de Pagamento Real: O checkout atual é apenas uma simulação.
 
-[ ] Banco de Dados: Atualmente os dados são salvos apenas no navegador do cliente (LocalStorage).
+[ ] Banco de Dados: Atualmente os dados são salvos apenas no navegador do cliente.
 
-Filtros de busca: Adicionar opções de filtrar por categoria (camisetas, calças, etc).
+Filtros de busca: Adicionar opções de filtrar por categoria.
 
 [ ] Validação de Formulários: Adicionar máscara de campo para CEP ou validação de e-mail no checkout.
 
